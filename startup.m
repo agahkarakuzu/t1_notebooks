@@ -1,3 +1,1 @@
-cd qMRLab
-startup
-cd ..
+run qMRLab/startup
