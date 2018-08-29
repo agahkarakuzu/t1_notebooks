@@ -1,0 +1,3 @@
+cd qMRLab
+startup
+cd ..
