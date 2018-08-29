@@ -50,7 +50,9 @@ RUN cd $HOME/work;\
     cd t1_notebooks;\
     git clone --single-branch -b t1_notebooks https://github.com/neuropoly/qMRLab.git;\
     chmod -R 777 $HOME/work/t1_notebooks; \
-    octave --eval "startup; \
+    octave --eval "pwd; \
+                   ls; \
+                   startup; \
                    pkg list;"
 
 WORKDIR $HOME/work/t1_notebooks
