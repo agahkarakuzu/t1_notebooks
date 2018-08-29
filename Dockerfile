@@ -57,3 +57,4 @@ RUN cd $HOME/work;\
 WORKDIR $HOME/work/t1_notebooks
 
 USER $NB_UID
+
