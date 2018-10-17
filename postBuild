@@ -7,3 +7,5 @@ jupyter nbextension enable runtools/main
 jupyter nbextension enable collapsible_headings/main
 jupyter nbextension enable hide_input/main
 jupyter nbextension enable init_cell/main
+git clone https://github.com/qMRLab/t1_notebooks.git $HOME/work
+git clone --single-branch -b ir-cli-addons https://github.com/neuropoly/qMRLab.git $HOME/work/t1_notebooks
